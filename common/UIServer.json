@@ -1,0 +1,584 @@
+{
+    "appTheme": {
+        "primaryColor": "#0C173A",
+        "themePrimaryColor": "#A4CD38",
+        "primeryTextColor": "#192228",
+        "primaryBackgroundColor": "#f5f5f6",
+        "analyticsBackgroundColor": "#f5f5f6",
+        "tableColumColor": "#0c173a",
+        "tableColumnBackground": "#FFFFFF",
+        "tabsCardBackground": "#FFFFFF",
+        "formLabelColor": "#000000",
+        "baseFontSize": "12px"
+    },
+    "marginTop": "40vh",
+    "fontSize": "52px",
+    "header": {
+        "backgroundColor": "rgb(22, 72, 170)",
+        "description": "for topbar/header color"
+    },
+    "body": {
+        "backgroundColor": "rgb(22, 72, 170)",
+        "height": "91vh",
+        "description": "total body styles including sidemenu and content"
+    },
+    "footer": {
+        "backgroundColor": "rgb(22, 72, 170)",
+        "height": "0px",
+        "padding": "0px",
+        "description": "footer styles"
+    },
+    "navBar": {
+        "logoutCardStyle": {
+            "border": "none",
+            "boxShadow": "0px 0px 0px 0px #707070",
+            "width": "13.5rem",
+            "padding": "0px",
+            "description": "logout card style"
+        },
+        "profileIcon": {
+            "borderRadius": "37px",
+            "height": "55px",
+            "width": "55px",
+            "description": "profile icon inside the logout card"
+        },
+        "profileName": {
+            "fontSize": "14px",
+            "fontWeight": "500",
+            "color": "#00000",
+            "description": "profile name inside the logout card"
+        },
+        "profileInfo": {
+            "fontSize": "10px",
+            "fontWeight": "500",
+            "color": "#00000",
+            "description": "profile inormation(email/number) inside the logout card"
+        },
+        "dividerOne": {
+            "marginBottom": "5px",
+            "marginTop": "5px",
+            "height": "1px",
+            "width": "250px",
+            "marginLeft": "-23px",
+            "marginRight": "-26px",
+            "description": "divding line below the profile, inside the logout card"
+        },
+        "roles": {
+            "marginBottom": "5px",
+            "description": "roles inside the logout card"
+        },
+        "businessUnit": {
+            "marginBottom": "10px",
+            "description": "business unit inside the logout card"
+        },
+        "cancelButton": {
+            "margin": "0px 0px 0px 12px",
+            "width": "auto",
+            "height": "33px",
+            "fontWeight": "600",
+            "fontSize": "14px",
+            "border": "0px solid #f5f5f5",
+            "boxShadow": "0 0px 0 rgb(0 0 0 / 2%)",
+            "description": "cancel button inside the logout card"
+        },
+        "applyButton": {
+            "margin": "0px 0px 0px 12px",
+            "borderRadius": "2px",
+            "width": "auto",
+            "height": "33px",
+            "fontWeight": "600",
+            "color": "#ffffff",
+            "fontSize": "14px",
+            "boxShadow": "-1px -1px 3px #00000029",
+            "description": "apply button inside the logout card"
+        },
+        "dividerTwo": {
+            "marginBottom": "5px",
+            "marginTop": "5px",
+            "marginLeft": "-23px",
+            "marginRight": "-26px",
+            "height": "1px",
+            "width": "250px",
+            "description": "divding line above the logout button, inside the logout card"
+        },
+        "logoutButton": {
+            "marginLeft": "-7.8%",
+            "marginBottom": "-7px",
+            "marginTop": "-5px",
+            "logoutIcon": {
+                "marginRight": "0.5rem",
+                "fontSize": "14px",
+                "color": "#707070"
+            },
+            "logoutText": {
+                "color": "#5D5454",
+                "fontSize": "14px"
+            },
+            "description": "logout button styles, inside the logout card"
+        },
+        "logoStyles": {
+            "width": "80px",
+            "paddingBottom": "3.5px",
+            "marginLeft": "-5px",
+            "description": "used for cw logo style"
+        },
+        "toggleStyles": {
+            "width": "100%",
+            "paddingBottom": "5px",
+            "cursor": "pointer",
+            "description": "this is for menu toggle icon style"
+        },
+        "navbarIcons": {
+            "width": "90%",
+            "paddingBottom": "30%",
+            "marginLeft": "30%",
+            "cursor": "pointer",
+            "description": "used for navbar right side icons styles(favourites,reports)"
+        },
+        "navbarDashboardIcon": {
+            "width": "90%",
+            "paddingBottom": "25%",
+            "marginLeft": "30%",
+            "description": "used for navbar right side icons styles(dashboards)"
+        },
+        "navbarSettingIcon": {
+            "width": "41%",
+            "paddingBottom": "8.5px",
+            "marginLeft": "40%",
+            "description": "used for navbar setting icon style"
+        },
+        "navbarEmailIcon": {
+            "width": "100%",
+            "paddingBottom": "5px",
+            "description": "used for navbar email icon style"
+        }
+    },
+    "sideMenu": {
+        "description": "layer below menu card",
+        "backgroundColor": "rgb(22, 72, 170)",
+        "height": "91vh",
+        "sideMenuCard": {
+            "height": "92vh",
+            "position": "relative",
+            "backgroundColor": "#fff",
+            "borderRadius": "0px",
+            "marginRight": "-8px",
+            "paddingRight": "0px",
+            "description": "menu card styles"
+        },
+        "sideMenuSearchIcon": {
+            "cursor": "pointer",
+            "color": "#bfbfbf",
+            "description": "side menu search bar icon"
+        }
+    },
+    "contentWindow": {
+        "height": "92vh",
+        "paddingTop": "0px",
+        "paddingLeft": "0rem",
+        "paddingRight": "0rem",
+        "background": "rgb(22, 72, 170)",
+        "description": "the layer below main content on the right side",
+        "contentCard": {
+            "height": "92vh",
+            "background": "#EDEDED",
+            "borderRadius": "0px",
+            "description": "content card styles"
+        },
+        "mainCard": {
+            "marginTop": "35vh",
+            "marginLeft": "auto",
+            "fontSize": "52px",
+            "description": "need to discuss with jini"
+        },
+        "ListWindowHeader": {
+            "description": "list window header styles",
+            "listWindowTitle": {
+                "fontSize": "23px",
+                "color": "#3e3e3c",
+                "fontWeight": "600",
+                "marginTop": "-5px",
+                "marginBottom": "0rem",
+                "width": "auto",
+                "maxWidth": "200px",
+                "whiteSpace": "nowrap",
+                "textOverflow": "ellipsis",
+                "overflow": "hidden",
+                "position": "relative",
+                "description": "list window main title styles"
+            },
+            "newButtonForlist": {
+                "height": "2rem",
+                "width": "5.4rem",
+                "background": "#089ea4",
+                "border": "0.25px solid #07888D",
+                "borderRadius": "2px",
+                "fontSize": "14px",
+                "color": "#ffffff",
+                "fontWeight": 500,
+                "fontFamily": "Open Sans",
+                "float": "right",
+                "opacity": 1,
+                "description": "list window new button styles on the right side"
+            },
+            "quickAddButton": {
+                "height": "33px",
+                "width": "33px",
+                "color": "#706e6b",
+                "border": "0.5px solid #dddbda",
+                "paddingLeft": "5px ",
+                "paddingRight": "5px",
+                "borderRadius": "5px ",
+                "float": "right",
+                "cursor": "pointer",
+                "description": "list window quick add button styles on the right side"
+            },
+            "quickAddButtonImage": {
+                "marginBottom": "6px",
+                "paddingLeft": "2px",
+                "paddingTop": "2px",
+                "paddingRight": "0px ",
+                "description": "list window quick add image styles on the right side"
+            },
+            "listSearchIcon": {
+                "cursor": "pointer",
+                "color": "lightgray",
+                "description": "search icon in list window serach bar"
+            },
+            "viewTypeDropdown": {
+                "fontWeight": "550",
+                "cursor": "pointer",
+                "fontSize": "14px",
+                "color": "#3E3E3C",
+                "fontFamily": "Open Sans",
+                "description": "types of view dropdown styles beside the search box(recently viewed dropdown)"
+            },
+            "listActionButtons": {
+                "height": "32px",
+                "width": "33px",
+                "background": "#fff",
+                "border": "1px solid #F3F3F3",
+                "borderRadius": "5px",
+                "cursor": "pointer",
+                "box-shadow": "0px 2px 2px rgba(0, 0, 0, 0.05)",
+                "paddingLeft": "5px",
+                "paddingRight": "5px ",
+                "marginRight": "9px ",
+                "paddingTop": "6px ",
+                "description": "list icon buttons on the right hand side"
+            },
+            "linesActionButtons": {
+                "height": "32px",
+                "width": "33px",
+                "background": "#fff",
+                "border": "0px solid #dddbda",
+                "borderRadius": "5px",
+                "cursor": "pointer",
+                "paddingLeft": "5px",
+                "paddingRight": "5px ",
+                "paddingTop": "6px ",
+                "description": "list icon buttons on the right hand side"
+            },
+            "headerActionButtons": {
+                "height": "31px",
+                "width": "32px",
+                "fontWeight": 500,
+                "color": "#536C78",
+                "borderRadius": "3px",
+                "border": "0.25px solid #DDDBDA",
+                "cursor": "pointer",
+                "marginLeft": "4px",
+                "paddingTop": "4.5px",
+                "paddingRight": "5px",
+                "paddingLeft": "5px",
+                "fontFamily": "Open sans",
+                "backgroundColor": "#fff",
+                "opacity": 1,
+                "description": "styles for icon "
+            },
+            "printActionButtons": {
+                "height": "31px",
+                "width": "32px",
+                "fontWeight": 500,
+                "color": "#536C78",
+                "borderRadius": "3px",
+                "border": "0.25px solid #DDDBDA",
+                "cursor": "pointer",
+                "marginLeft": "4px",
+                "paddingTop": "4.5px",
+                "paddingRight": "5px",
+                "paddingLeft": "5px",
+                "fontFamily": "Open sans",
+                "backgroundColor": "#fff",
+                "opacity": 1,
+                "description": "styles for icon "
+            },
+            "listActionEditButtons": {
+                "height": "32px",
+                "width": "33px",
+                "background": "#fff",
+                "border": "0.5px solid #dddbda",
+                "borderRadius": "5px",
+                "cursor": "pointer",
+                "paddingLeft": "5px",
+                "paddingRight": "5px ",
+                "paddingTop": "6px ",
+                "marginRight": "4px",
+                "description": "list icon buttons on the right hand side"
+            },
+            "listActionButtonImages": {
+                "fontSize": "16px",
+                "fontWeight": "600",
+                "color": "#536C78",
+                "description": "images on the list icon buttons"
+            }
+        },
+        "listWindowTable": {
+            "minHeight": "70vh",
+            "paddingTop": "7px",
+            "description": "list window table height"
+        },
+        "recordWindow": {
+            "description": "form view styles/css are in this class",
+            "overflowX": "hidden",
+            "overflowY": "auto",
+            "height": "88vh",
+            "requiredThing": "need to add paddingBottom when scrolling top",
+            "mainCard": {
+                "height": "91vh",
+                "overflowX": "hidden",
+                "overflowY": "auto",
+                "background": "#F5F5F5",
+                "margin": "-8px",
+                "description": "background for the form view"
+            },
+            "RecordHeader": {
+                "breadCrumb": {
+                    "fontSize": "11px",
+                    "paddingLeft": "0px",
+                    "color": "#1648AA",
+                    "paddingBottom": "0px",
+                    "paddingTop": "0px",
+                    "fontWeight": "500",
+                    "fontFamily": "Open sans",
+                    "description": "bread crumb for the current page"
+                },
+                "recordTitleDiv": {
+                    "width": "auto",
+                    "maxWidth": "550px",
+                    "whiteSpace": "nowrap",
+                    "textOverflow": "ellipsis",
+                    "overflow": "hidden",
+                    "position": "relative",
+                    "description": "div style for record title(document number and name)"
+                },
+                "recordTitle": {
+                    "fontSize": "26px",
+                    "color": "#1C4587",
+                    "fontWeight": "bold",
+                    "fontFamily": "Open sans",
+                    "description": "style for record title(document number and name)"
+                },
+                "formViewButton": {
+                    "description": "form view buttons(book/actions)",
+                    "formTopButtons": {
+                        "width": "auto",
+                        "minWidth": "90px",
+                        "textAlign": "center",
+                        "borderRadius": "4px",
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "fontWeight": 600
+                    },
+                    "actionButtonMenu": {
+                        "background": "white",
+                        "marginLeft": "0px",
+                        "marginRight": "0px"
+                    }
+                },
+                "iconActionButtonDiv": {
+                    "float": "right",
+                    "marginTop": "-23px",
+                    "description": "div style for icon action buttons"
+                },
+                "iconActionButtons": {
+                    "height": "30px",
+                    "width": "auto",
+                    "fontWeight": 500,
+                    "color": "#536C78",
+                    "borderRadius": "3px",
+                    "border": "0.25px solid #DDDBDA",
+                    "cursor": "pointer",
+                    "marginLeft": "4px",
+                    "paddingTop": "5px",
+                    "fontFamily": "Open sans",
+                    "backgroundColor": "#fff",
+                    "opacity": 1,
+                    "description": "styles for icon "
+                },
+                "aboveHeaderEditButtons": {
+                    "height": "30px",
+                    "width": "auto",
+                    "fontWeight": 500,
+                    "color": "#717172",
+                    "borderRadius": "2px",
+                    "border": "0.25px solid #DDDBDA",
+                    "opacity": 1,
+                    "cursor": "pointer",
+                    "marginLeft": "4px",
+                    "description": "record window/form view header button styles above the status bar"
+                },
+                "headerCard": {
+                    "marginBottom": "0px",
+                    "marginTop": "8px",
+                    "borderRadius": "0px",
+                    "border": "none",
+                    "boxShadow": "0 0px 0px 0 #ffffff",
+                    "description": "record window/form view header card styles(this is the second card inside form view)"
+                },
+                "StatusBar": {
+                    "background": "#FBFBFB",
+                    "marginLeft": "0px",
+                    "marginRight": "0px",
+                    "paddingLeft": "14px",
+                    "paddingRight": "10px",
+                    "paddingBottom": "3px",
+                    "paddingTop": "3px",
+                    "width": "100%",
+                    "maxWidth": "100%",
+                    "overflowX": "auto",
+                    "description": "status bar row styles in the header part"
+                },
+                "statusBarKeys": {
+                    "fontSize": "12px",
+                    "color": "#597380",
+                    "position": "relative",
+                    "whiteSpace": "nowrap",
+                    "overflow": "hidden",
+                    "textOverflow": "ellipsis",
+                    "fontWeight": "500",
+                    "description": "status bar keys styles in the status bar part"
+                },
+                "statusBarValues": {
+                    "color": "#597380",
+                    "fontWeight": "550",
+                    "fontSize": "13px",
+                    "paddingTop": "1px",
+                    "paddingLeft": "3px",
+                    "description": "status bar values styles in the status bar part"
+                },
+                "RecordForm": {
+                    "description": "total form styles including collapse and all in the header part/div",
+                    "paddingLeft": "25px",
+                    "paddingRight": "25px",
+                    "paddingBottom": "25px",
+                    "paddingTop": "20px",
+                    "collapsePanel": {
+                        "border": "0px solid gray"
+                    },
+                    "FormField": {
+                        "FormItem": {
+                            "marginBottom": "-10px"
+                        },
+                        "SelectTag": {
+                            "width": "100%"
+                        }
+                    }
+                },
+                "readOnlyViewColumn": {
+                    "paddingLeft": "20px",
+                    "paddingRight": "20px",
+                    "paddingBottom": "25px",
+                    "paddingTop": "20px"
+                }
+            },
+            "linesTab": {
+                "description": "all styles/css for lines tab",
+                "mainDiv": {
+                    "boxShadow": "0px 0px 0px 0px #ffffff",
+                    "background": "#fff",
+                    "marginBottom": "-20px",
+                    "paddingTop": "0px",
+                    "paddingLeft": "0px",
+                    "paddingRight": "0px",
+                    "paddingBottom": "25px",
+                    "description": "similar thing like header main div(need to add)"
+                },
+                "tabStyle": {
+                    "background": "white",
+                    "marginBottom": "0px",
+                    "description": "style for tabs in the lines tab section"
+                },
+                "linesSearchBar": {
+                    "paddingLeft": "1em",
+                    "paddingBottom": "0px",
+                    "icon": {
+                        "cursor": "pointer",
+                        "paddingRight": "4px",
+                        "paddingBottom": "2px",
+                        "color": "#464646",
+                        "opacity": "57%"
+                    }
+                },
+                "LinesAddNewButton": {
+                    "borderRadius": "0px",
+                    "color": "rgb(83, 108, 120)",
+                    "border": "0px solid rgb(83, 108, 120)",
+                    "cursor": "pointer",
+                    "fontFamily": "Open sans",
+                    "backgroundColor": "rgb(255, 255, 255)",
+                    "opacity": 1,
+                    "padding": "8px",
+                    "top": "6px",
+                    "marginTop": "-16px",
+                    "fontWeight": "600",
+                    "marginLeft": "-15px",
+                    "boxShadow": "0 0 0 0px #ffffff",
+                    "fontSize": "12px",
+                    "note": "need to add + as icon for addNew button"
+                },
+                "popUpNewButton": {
+                    "margin": "0px 0px 0px 12px",
+                    "borderRadius": "2px",
+                    "width": "auto",
+                    "height": "33px",
+                    "fontWeight": "600",
+                    "color": "#ffffff",
+                    "fontSize": "14px",
+                    "boxShadow": "-1px -1px 3px #00000029",
+                    "description": "popup addnew or save and next button"
+                },
+                "linesTable": {
+                    "fontWeight": "500"
+                },
+                "lineTabIcons": {
+                    "description": "styles for line tab icons(maximize, minimize, fullscreen",
+                    "paddingRight": "10px ",
+                    "tabIconButtons": {
+                        "height": "32px",
+                        "width": "33px",
+                        "border": "0px solid #dddbda",
+                        "backgroundColor": "#ffffff",
+                        "cursor": "pointer",
+                        "paddingRight": "0px ",
+                        "borderRadius": "5px",
+                        "boxShadow": "0 0px 0 rgb(0 0 0 / 2%)",
+                        "description": "styles for buttons which contain the tab icons(buttons are not visible)"
+                    },
+                    "tabIconsMaximize": {
+                        "paddingLeft": "0px",
+                        "paddingBottom": "3px",
+                        "paddingRight": "0px ",
+                        "description": "styles for icons within the buttons"
+                    },
+                    "tabIconsMinimize": {
+                        "paddingLeft": "0px",
+                        "paddingTop": "8px",
+                        "paddingRight": "0px ",
+                        "description": "styles for icons within the buttons"
+                    }
+                }
+            }
+        }
+    }
+}

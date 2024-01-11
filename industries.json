@@ -1,0 +1,67 @@
+{
+    "industries": [
+        {
+            "value": "Retail",
+            "children" : [
+                {
+                    "value": "Apparel & Footwear"
+                },
+                {
+                    "value": "Supermarket & Grocery"
+                },
+                {
+                    "value": "Hypermarket & Departmental Stores"
+                },
+                {
+                    "value": "Life Style & Fashion"
+                },
+                {
+                    "value": "Specialised Retail"
+                },
+                {
+                    "value": "Electronics and Home Appliances"
+                },
+                {
+                    "value": "Pharma & Healthcare"
+                }
+            ]
+        },
+        {
+            "value": "Restaurant",
+            "children" : [
+                {
+                    "value": "Restaurant"
+                },
+                {
+                    "value": "Quick Service Restaurants"
+                },
+                {
+                    "value": "Multi-Chain Operations"
+                },
+                {
+                    "value": "Bakery & Confectioneries"
+                },
+                {
+                    "value": "Bars & Breweries"
+                },
+                {
+                    "value": "Delivery/Take Away"
+                }
+            ]
+        },
+        {
+            "value": "Distribution",
+            "children" : [
+                {
+                    "value": "FMCG & Packaged Goods"
+                },
+                {
+                    "value": "Specialized Distribution"
+                },
+                {
+                    "value": "Others"
+                }
+            ]
+        }
+    ]
+}

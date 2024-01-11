@@ -1,0 +1,31 @@
+{
+    "roles": [
+        {
+            "value": "Sales Manager"
+        },
+        {
+            "value": "Marketing / PR Manager"
+        },
+        {
+            "value": "Customer Service Manager"
+        },
+        {
+            "value": "CxO / General Manager"
+        },
+        {
+            "value": "It Manager"
+        },
+        {
+            "value": "Operations Manager"
+        },
+        {
+            "value": "Developer / Software Engineer / Analyst"
+        },
+        {
+            "value": "Student / Personal Interest"
+        },
+        {
+            "value": "Others"
+        }
+    ]
+}

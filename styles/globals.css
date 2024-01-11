@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+
+@tailwind components;
+@tailwind utilities;
+
+.ff-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.ff-chivo {
+  font-family: "Chivo", sans-serif;
+}
+
+.ff-notosans {
+  font-family: "Noto Sans", sans-serif;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* html {
+        color-scheme: dark;
+    }
+    body {
+        color: white;
+        background: black;
+    } */
+}
+.bussinessCard-shadow {
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.06);
+}
+
+.free-trial-btn-hover:hover svg {
+  transform: translateX(10px);
+}
+
+nav li:after {
+  position: absolute;
+  left: 0;
+  content: "";
+  bottom: 0;
+  height: 2px;
+  background-color: #101828;
+  width: 0;
+  transition: all 0.2s ease-in;
+}
+
+nav li:hover::after {
+  width: 100%;
+}
+
+.fixed-screen #__next {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.scrollbar-w-0::-webkit-scrollbar {
+  width: 0;
+}
+
+.aspect-img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.aspect-of-your-business-slider .slick-disabled.slick-arrow {
+  opacity: 0;
+  pointer-events: none;
+}
+.aspect-of-your-business-slider .slick-next {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #101828;
+  background-image: url("/images/svg/left-arrow.svg");
+  background-size: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  right: -46px;
+}
+.aspect-of-your-business-slider .slick-next:hover,
+.aspect-of-your-business-slider .slick-next:focus {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #101828;
+  background-image: url("/images/svg/left-arrow.svg");
+  background-size: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.aspect-of-your-business-slider .slick-prev {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #101828;
+  background-image: url("/images/svg/left-arrow.svg");
+  background-size: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: -46px;
+  transform: rotate(180deg);
+}
+.aspect-of-your-business-slider .slick-prev:hover,
+.aspect-of-your-business-slider .slick-prev:focus {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #101828;
+  background-image: url("/images/svg/left-arrow.svg");
+  background-size: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+}
+.aspect-of-your-business-slider .slick-next::before {
+  font-family: unset;
+  content: unset;
+}
+.aspect-of-your-business-slider .slick-prev::before {
+  font-family: unset;
+  content: unset;
+}
+.aspect-of-your-business-slider .slick-dots {
+  bottom: -40px;
+}
+.aspect-of-your-business-slider .slick-dots li button:before {
+  font-size: 14px;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1340px;
+  }
+  .aspect-of-your-business-slider .slick-next {
+    right: -65px;
+  }
+  .aspect-of-your-business-slider .slick-prev {
+    left: -65px;
+  }
+  /* .loginDiv{
+    box-shadow : 0px 0px 59px 2px rgba(0, 0, 0, 0.1)
+  } */
+}
+
+@media (min-width: 1500px) {
+  .aspect-of-your-business-slider .slick-next {
+    right: -62px;
+  }
+  .aspect-of-your-business-slider .slick-prev {
+    left: -62px;
+  }
+  /* .loginDiv{
+    box-shadow : 0px 0px 59px 2px rgba(0, 0, 0, 0.1)
+  } */
+}
+@media (min-width: 1700px) {
+  .aspect-of-your-business-slider .slick-next {
+    right: -90px;
+  }
+  .aspect-of-your-business-slider .slick-prev {
+    left: -90px;
+  }
+  /* .loginDiv{
+    box-shadow : 0px 0px 59px 2px rgba(0, 0, 0, 0.1)
+  } */
+}
+@media (min-width: 320px) { 
+    .loginDiv{
+      border: 0;
+      box-shadow: none;
+    }
+}
+@media (min-width: 640px) { 
+  /* .loginDiv{ */
+    /* border: none; */
+    /* box-shadow : 0px 0px 59px 2px rgba(0, 0, 0, 0.1) */
+  /* } */
+}
+@media (min-width: 768px) { 
+  /* .loginDiv{ */
+    /* border: none; */
+    /* box-shadow : 0px 0px 59px 2px rgba(0, 0, 0, 0.1) */
+  /* } */
+}
+.form-check-input:checked:checked {
+  background-color: #006d77;
+  border-color: #006d77;
+}

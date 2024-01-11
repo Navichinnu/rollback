@@ -1,0 +1,22 @@
+{
+    "employess": [
+        {
+            "value": "1 - 15 employees"
+        },
+        {
+            "value": "16 - 50 employees"
+        },
+        {
+            "value": "51 - 200 employees"
+        },
+        {
+            "value": "201 - 500 employees"
+        },
+        {
+            "value": "501 - 2000 employees"
+        },
+        {
+            "value": "2000+ employees"
+        }
+    ]
+}

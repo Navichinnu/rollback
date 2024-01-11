@@ -304,7 +304,7 @@ const SignIn = () => {
                   />
                 </div>
                 <button id="login" name="login" onClick={Instance === "Enterprise"?handleLoginForEnterprise:handleLogin} className="flex items-center justify-center mb-2 xs:mt-[20px] sm:mt-[20px] w-full h-[50px] sm:h-[50px] px-4 py-2 text-white bg-[#91C507] text-[13px] ff-inter font-bold outline-none rounded">
-                  Log
+                  Loginn
                 </button>
               </form>
               <div className="mt-2 mb-7 mx-10 grid grid-cols-2" >

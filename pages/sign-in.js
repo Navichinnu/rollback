@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Router from 'next/router';
 import { Auth } from 'aws-amplify';
 import Loader from "../common/Loader";
-// import { redirectURL } from "../serverConfig";
+/////// import { redirectURL } from "../serverConfig";
 import { message } from "antd";
 import axios from "axios";
 import ThemeJson from "../common/UIServer.json";

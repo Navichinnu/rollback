@@ -112,7 +112,7 @@ const SignIn = () => {
               axios.post(`/api/getMenuForEnterprise`, body3, {})
           ]);
           if (globalParametersResponse.status === 200) {
-              // let tweet =  JSON.parse(globalParametersResponse.data.User.CW360_V2_UI) 
+              /// let tweet =  JSON.parse(globalParametersResponse.data.User.CW360_V2_UI) 
               // localStorage.setItem("hideKey",tweet.appTheme.showNavBar)
               // localStorage.setItem("primeColor",tweet.appTheme.primaryColor)
               let data1 = { "globalParameters": globalParametersResponse.data }
